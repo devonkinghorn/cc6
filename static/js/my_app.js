@@ -9,5 +9,6 @@ angular.module('myApp', []).
     error(function(data, status, headers, config) {
       $scope.user = {};
       $scope.error = data;
+      alert(data)
     });
   }]);

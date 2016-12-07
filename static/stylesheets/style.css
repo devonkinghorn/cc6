@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html{
+padding: 0;
+margin: 0;
+
+font-family: 'Lato', sans-serif;
+background-color: #edfdff;
+
+}
+
+body{
+	padding: 0;
+	margin: 0;
+
+}
+
+/**NAVIGATION**/
+a,
+a:visited
+{
+	color: black;
+	text-decoration: none;
+
+}
+
+#nav-main{
+	height:100px;
+}
+
+#header{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#nav-main #right,
+#nav-main #left{
+	list-style-type: none;
+
+}
+
+#nav-main #right li,
+#nav-main #left li{
+
+	padding: 20px;
+	display: inline-block;
+}
+
+
+#nav-main #right{
+	float: right;
+	margin-right: 100px;
+}
+
+#nav-main #left a,
+#nav-main #right a{
+	padding: 20px;
+	background-color: #C9F9FF;
+	border-radius: 5px;
+}
+
+#nav-main #left a:hover,
+#nav-main #right a:hover{
+	background-color:#73EFFF;
+}
+
+#nav-main #left a{
+	padding: 20px;
+}
+
+#nav-main #left{
+	float: left;
+	margin-left: 100px;
+}
+
+/**STORE ITEMS**/
+
+.store-item img{
+	border-radius: 25px;
+	border:5px solid #ffd9b3;
+	width: 200px;
+	height: 200px;
+	transition:width 0.5s ease, height 0.5s ease;
+}
+
+.store-item img:hover{
+	width:250px;
+	height: 250px;
+	transition:width 0.5s ease, height 0.5s ease;
+}
+
+.item-wrapper:hover
+{	margin: 40px 0;
+	width:250px;
+	height: 250px;
+	transition:width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+}
+
+.store-item p{
+	padding: 0;
+	margin: 0;
+}
+
+.store-item{
+	text-align: center;
+	
+}
+
+.item-wrapper
+{
+	display: inline-block;
+	width:210px;
+	height:230px;
+	padding: 0;
+	margin: 40px;
+	transition:width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+	max-width: 800px;
+}
+
+#items-list{
+	text-align:center;
+	margin:auto;
+	padding:50px;
+	min-height: 300px;
+	max-width: 1000px;
+
+}
+
+/** FOOTER **/
+
+#footer
+{
+	margin:0;
+	padding-top: 40px;
+	height: 200px;
+	text-align:center;
+	background-color: #C9F9FF;
+	
+}
+
+#footer p{
+	font-size: 30px;
+}
+
+/** ITEM DETAIL PAGE**/
+
+.main-item{
+	margin: auto;
+	max-width: 1300px;
+}
+
+.main-item img{
+	display: inline-block;
+	border-radius: 25px;
+	border:5px solid #ffd9b3;
+	width: 600px;
+	height: 600px;
+}
+
+.item-info{
+	float: right;
+	display: inline-block;
+	background-color: #FAFEFF;
+	width: 560px;
+	height: 560px;
+	padding:20px;
+	border-radius: 25px;
+	border:5px solid #BAC1C2;
+
+}
+
+/**CART PAGE**/
+
+h2{
+	text-align: center;
+}
+
+#addToCart{
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #C9F9FF;
+}
+
+#addToCart:hover{
+	background-color: #73EFFF;
+}
